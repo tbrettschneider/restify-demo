@@ -1,0 +1,15 @@
+{
+  "name": "restify-demo",
+  "version": "1.0.0",
+  "description": "simple demo of restify lib",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Tommy Brettschneider",
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^6.0.1",
+    "osmosis": "^1.1.4"
+  }
+}
