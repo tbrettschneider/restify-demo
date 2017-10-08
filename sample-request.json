@@ -1,0 +1,7 @@
+{
+  "url": "https://www.github.com",
+  "selectors": {
+    "body_class": "body@class"
+  },
+  "opengraph": "true"
+}
