@@ -9,7 +9,34 @@
   "author": "Tommy Brettschneider",
   "license": "ISC",
   "dependencies": {
+    "bunyan": "^1.8.12",
+    "deferred": "^0.7.8",
+    "osmosis": "^1.1.4",
     "restify": "^6.0.1",
-    "osmosis": "^1.1.4"
+    "restify-errors": "^5.0.0",
+    "restify-formatter-jsonp": "^0.1.0",
+    "restify-jwt": "^0.4.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "script",
+      "ecmaFeatures": {
+        "jsx": true,
+        "impliedStrict": true
+      }
+    },
+    "rules": {
+      "no-empty": 1,
+      "no-unused-vars": 1,
+      "strict": 1,
+      "no-redeclare": 1,
+      "no-global-assign": 1,
+      "no-mixed-spaces-and-tabs": 1,
+      "no-extra-semi": 2
+    }
   }
 }
